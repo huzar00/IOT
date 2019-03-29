@@ -1,0 +1,236 @@
+
+html, body {
+  /* height: 140%; aanpassen */
+  width: 100%;
+  margin: 0;
+  overflow-x: auto;
+  overflow-y: auto;
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+}
+
+.blauw {
+  position: relative;
+  display: block;
+  height: 55%;
+  width: 100%;
+  margin-top: 0;
+  margin-top: 0;
+  background-color: #01BAF3;
+}
+
+.welkom {
+  width: 100%;
+  position: absolute;
+  height: 110% !important;
+}
+
+.program {
+  width: 100%;
+  position: absolute;
+  height: 110% !important;
+}
+
+.zwart {
+  position: relative;
+  display: block;
+  height: 40%;
+  margin-top: 30vh;
+  margin-bottom: 0;
+  background-color: black;
+  /* text-align: center; */
+}
+
+.zwart h1 {
+  position: absolute;
+  display: block;
+  color: white;
+  width: 100%;
+  margin-top: -30%;
+  text-align: center;
+}
+
+.blauw .logo {
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -40%);
+}
+
+.zwart .beneden {
+  position: absolute;
+  width: 20%;
+  left: 50%;
+  top: -15%;
+  transform: translate(-50%);
+}
+
+.blauw2 {
+  position: absolute;
+  display: block;
+  height: 58%;
+  width: 100%;
+  background-color: #01BAF3;
+}
+
+.menu_start {
+  position: absolute;
+  display: block;
+  width: 15%;
+  top: 28%;
+  left: 6%;
+}
+
+.menu {
+  position: absolute;
+  display: block;
+  width: 15%;
+  top: 2%;
+  left: 6%;
+}
+
+.betreden {
+  position:absolute;
+  color: white;
+  font-size: 25px;
+  top: 50%;
+  width: 75%;
+  left: 12%;
+  text-align: center;
+}
+
+#timer {
+  font-size: 80px;
+  width: 100%;
+  margin-top: 40%;
+  text-align: center;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.stoelen {
+  position: absolute;
+  width: 80%;
+  top: 55%;
+  margin-left: 10%;
+  transform: translateY(-50%);
+}
+
+.stoel {
+  position: absolute;
+  width: 8%;
+  left: 57.5%;
+  top: 57.2%;
+}
+
+/*  Navigatie */
+.sidenav {
+   height: 100vh; /* 100% Full-height */
+   width: 0; /* 0 width - change this with JavaScript */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Stay on top */
+   top: 0; /* Stay at the top */
+   left: 0;
+   background-color: #00aaee; /* Black*/
+   overflow-x: hidden; /* Disable horizontal scroll */
+   padding-top: 130px; /* Place content 60px from the top */
+   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+   /* padding: 40px 80px 30px 70px; */
+  margin-top: 5%;
+   margin-left: 14%;
+   width: 100%;
+   padding: 0px 0px 60px 0px;
+   text-decoration: none;
+   font-size: 25px;
+   display: block;
+   transition: 0.3s;
+   font-weight:800;
+   color: white;
+   /* border-bottom: 2px solid white; */
+}
+
+
+.sidenav a:hover {
+   color: white;
+}
+
+.sidenav .closebtn {
+   position: absolute;
+   top: 2%;
+   right: -290px;
+   font-size: 40px;
+   margin-left: 200px;
+}
+
+.sidenav .logo_wit {
+  position: absolute;
+  top: 65%;
+  margin-left: 35%;
+  width: 30%;
+}
+
+
+.program  h1{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.info_tekst {
+  color: white;
+  width: 75%;
+  margin-top: 35%;
+  margin-left: 15%;
+}
+
+.icoon {
+  width: 60px;
+  margin-top: 17%;
+  margin-left: 14%;
+}
+
+.tekst {
+  display: block;
+  color: white;
+  margin-left: 40%;
+  margin-top: -6.5vh;
+}
+
+.logo_wit2 {
+  position: absolute;
+  width: 30%;
+  margin-top: 15%;
+  margin-left: 35%;
+}
+
+.foto_voorstelling {
+  width: 100%;
+  /* height: 75%; */
+}
+
+.naam_voorstelling {
+  margin-top: 25%;
+}
+
+.samenvatting {
+  position: absolute;
+  width: 85%;
+  color: white;
+  height: 80%;
+  margin-left: 8%;
+  text-align: left;
+  font-size: 18px;
+}
